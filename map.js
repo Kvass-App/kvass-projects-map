@@ -93,7 +93,7 @@ jQuery(document).ready(function () {
     map.mapTypes.set("flatsome", styledMapType);
 
     var openInfoWindows = [];
-    fetch("/wp-content/stats/data/projects-v1.4.json")
+    fetch("https://raw.githubusercontent.com/Kvass-App/kvass-projects-map/master/data/project-map.json")
       .then(function (res) {
         return res.json();
       })
