@@ -3,15 +3,15 @@ jQuery(document).ready(function () {
     "//maps.googleapis.com/maps/api/js?key=AIzaSyCEXal1h76V7FzbKHHFHib54csl07ziLeY&ver=3.13.2";
   var markers = {
     dot: {
-      url: "/wp-content/stats/assets/map-marker-dot.png",
+      url: "https://raw.githubusercontent.com/Kvass-App/kvass-projects-map/master/assets/map-marker-dot.png",
       center: [5, 5],
     },
     default: {
-      url: "/wp-content/stats/assets/map-marker.png",
+      url: "https://raw.githubusercontent.com/Kvass-App/kvass-projects-map/master/assets/map-marker.png",
       center: [12.5, 33],
     },
     featured: {
-      url: "/wp-content/stats/assets/map-marker-featured.png",
+      url: "https://raw.githubusercontent.com/Kvass-App/kvass-projects-map/master/assets/map-marker-featured.png",
       center: [17.5, 47],
     },
   };
