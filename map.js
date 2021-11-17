@@ -1,17 +1,18 @@
 jQuery(document).ready(function () {
   var scriptSrc =
     "//maps.googleapis.com/maps/api/js?key=AIzaSyCEXal1h76V7FzbKHHFHib54csl07ziLeY&ver=3.13.2";
+  var gitSrc = "https://raw.githubusercontent.com/Kvass-App/kvass-projects-map/master/assets/";
   var markers = {
     dot: {
-      url: "https://raw.githubusercontent.com/Kvass-App/kvass-projects-map/master/assets/map-marker-dot.png",
+      url: gitSrc + "map-marker-dot.png",
       center: [5, 5],
     },
     default: {
-      url: "https://raw.githubusercontent.com/Kvass-App/kvass-projects-map/master/assets/map-marker.png",
+      url: gitSrc +  "map-marker.png",
       center: [12.5, 33],
     },
     featured: {
-      url: "https://raw.githubusercontent.com/Kvass-App/kvass-projects-map/master/assets/map-marker-featured.png",
+      url: gitSrc +  "map-marker-featured.png",
       center: [17.5, 47],
     },
   };
