@@ -1,22 +1,29 @@
 jQuery(document).ready(function () {
+  var target = document.querySelector(".locations-map")
+  if (!target) return
+
+  var mapKey = target.getAttribute('map-key')
+  var vendor = target.getAttribute('vendor') || 'kvass'
+  var theme = target.getAttribute('theme') || "#013552"
+
   var scriptSrc =
-    "//maps.googleapis.com/maps/api/js?key=AIzaSyCEXal1h76V7FzbKHHFHib54csl07ziLeY&ver=3.13.2";
-  var gitSrc = "https://raw.githubusercontent.com/Kvass-App/kvass-projects-map/master/assets/";
+    "//maps.googleapis.com/maps/api/js?key=" + mapKey + "&ver=3.13.2";
+  var baseSrc = 'https://cdn.jsdelivr.net/gh/Kvass-App/kvass-projects-map@master'
+  var assetSrc = baseSrc + "/assets/" + vendor;
   var markers = {
     dot: {
-      url: gitSrc + "map-marker-dot.png",
+      url: assetSrc + "/map-marker-dot.png",
       center: [5, 5],
     },
     default: {
-      url: gitSrc +  "map-marker.png",
+      url: assetSrc +  "/map-marker.png",
       center: [12.5, 33],
     },
     featured: {
-      url: gitSrc +  "map-marker-featured.png",
+      url: assetSrc +  "/map-marker-featured.png",
       center: [17.5, 47],
     },
   };
-  var theme = "#013552";
 
   function LoadScript(src, callback) {
     if (document.querySelector('[src="' + src + '"')) return callback();
@@ -84,7 +91,7 @@ jQuery(document).ready(function () {
       disableDoubleClickZoom: true,
     };
     var map = new google.maps.Map(
-      document.querySelector(".locations-map"),
+      target,
       myOptions
     );
     var styledMapType = new google.maps.StyledMapType(styles["flatsome"], {
@@ -94,7 +101,7 @@ jQuery(document).ready(function () {
     map.mapTypes.set("flatsome", styledMapType);
 
     var openInfoWindows = [];
-    fetch("https://raw.githubusercontent.com/Kvass-App/kvass-projects-map/master/data/project-map.json")
+    fetch(baseSrc + '/data/' + vendor + '.json')
       .then(function (res) {
         return res.json();
       })
@@ -132,7 +139,7 @@ jQuery(document).ready(function () {
     : "" }</div>
 <a href="${project.url}" target="_blank" class="button primary" style="border-radius:5px;"><span>Gå til ${project.name}</span>
 </a></div>
-<p>`,
+<p>`
           });
 
           if (markerType !== "dot")
