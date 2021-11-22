@@ -131,10 +131,10 @@ jQuery(document).ready(function () {
             content: `</p>
 <div class="locations-map-info">${
               project.cover
-                ? `<img style="max-width:380px" src="${project.cover}" />`
+                ? `<img style="max-width:410px" src="${project.cover}" />`
                 : ""
             }
-<div style="color: #333;font-size: 16px; padding: 10px 0 10px 0">${
+<div style="color: #333;font-size: 16px; padding: 20px 0 20px 0; font-weight: normal;">${
               project.description ? `${project.description}` : ""
             }</div>
 <a href="${
