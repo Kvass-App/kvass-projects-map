@@ -10,7 +10,9 @@ jQuery(document).ready(function () {
     "//maps.googleapis.com/maps/api/js?key=" + mapKey + "&ver=3.13.2";
   var baseSrc =
     "https://cdn.jsdelivr.net/gh/Kvass-App/kvass-projects-map@master";
-  var assetSrc = baseSrc + "/assets/" + vendor;
+  var imgSrc =
+    "https://raw.githubusercontent.com/Kvass-App/kvass-projects-map/master/";
+  var assetSrc = imgSrc + "/assets/" + vendor;
   var markers = {
     dot: {
       url: assetSrc + "/map-marker-dot.png",
