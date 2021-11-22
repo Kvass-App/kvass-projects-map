@@ -1,26 +1,27 @@
 jQuery(document).ready(function () {
-  var target = document.querySelector(".locations-map")
-  if (!target) return
+  var target = document.querySelector(".locations-map");
+  if (!target) return;
 
-  var mapKey = target.getAttribute('map-key')
-  var vendor = target.getAttribute('vendor') || 'kvass'
-  var theme = target.getAttribute('theme') || "#013552"
+  var mapKey = target.getAttribute("map-key");
+  var vendor = target.getAttribute("vendor") || "kvass";
+  var theme = target.getAttribute("theme") || "#013552";
 
   var scriptSrc =
     "//maps.googleapis.com/maps/api/js?key=" + mapKey + "&ver=3.13.2";
-  var baseSrc = 'https://cdn.jsdelivr.net/gh/Kvass-App/kvass-projects-map@master'
+  var baseSrc =
+    "https://cdn.jsdelivr.net/gh/Kvass-App/kvass-projects-map@master";
   var assetSrc = baseSrc + "/assets/" + vendor;
   var markers = {
     dot: {
-      url: assetSrc + "/map-marker-dot.png",
+      url: assetSrc + "/map-marker-dot-main.png",
       center: [5, 5],
     },
     default: {
-      url: assetSrc +  "/map-marker.png",
+      url: assetSrc + "/map-marker.png",
       center: [12.5, 33],
     },
     featured: {
-      url: assetSrc +  "/map-marker-featured.png",
+      url: assetSrc + "/map-marker-featured.png",
       center: [17.5, 47],
     },
   };
@@ -90,10 +91,7 @@ jQuery(document).ready(function () {
       scrollwheel: false,
       disableDoubleClickZoom: true,
     };
-    var map = new google.maps.Map(
-      target,
-      myOptions
-    );
+    var map = new google.maps.Map(target, myOptions);
     var styledMapType = new google.maps.StyledMapType(styles["flatsome"], {
       name: "flatsome",
     });
@@ -101,7 +99,7 @@ jQuery(document).ready(function () {
     map.mapTypes.set("flatsome", styledMapType);
 
     var openInfoWindows = [];
-    fetch(baseSrc + '/data/' + vendor + '.json')
+    fetch(baseSrc + "/data/" + vendor + ".json")
       .then(function (res) {
         return res.json();
       })
@@ -132,14 +130,18 @@ jQuery(document).ready(function () {
 <div class="locations-map-info">${
               project.cover
                 ? `<img style="max-width:380px" src="${project.cover}" />`
-                : "" }
+                : ""
+            }
 <div style="color: #333;font-size: 16px; padding: 10px 0 10px 0">${
-  project.description
-    ? `${project.description}`
-    : "" }</div>
-<a href="${project.url}" target="_blank" class="button primary" style="border-radius:5px;"><span>Gå til ${project.name}</span>
+              project.description ? `${project.description}` : ""
+            }</div>
+<a href="${
+              project.url
+            }" target="_blank" class="button primary" style="border-radius:5px;"><span>Gå til ${
+              project.name
+            }</span>
 </a></div>
-<p>`
+<p>`,
           });
 
           if (markerType !== "dot")
