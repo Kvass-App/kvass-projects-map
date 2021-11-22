@@ -13,7 +13,7 @@ jQuery(document).ready(function () {
   var assetSrc = baseSrc + "/assets/" + vendor;
   var markers = {
     dot: {
-      url: assetSrc + "/map-marker-dot-main-v1.png",
+      url: assetSrc + "/map-marker-dot-main-v2.png",
       center: [5, 5],
     },
     default: {
