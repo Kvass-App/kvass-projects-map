@@ -13,15 +13,15 @@ jQuery(document).ready(function () {
   var assetSrc = baseSrc + "/assets/" + vendor;
   var markers = {
     dot: {
-      url: assetSrc + "/map-marker-dot-main-v2.png",
+      url: assetSrc + "/map-marker-dot.png",
       center: [5, 5],
     },
     default: {
-      url: assetSrc + "/map-marker-v1.png",
+      url: assetSrc + "/map-marker.png",
       center: [12.5, 33],
     },
     featured: {
-      url: assetSrc + "/map-marker-featured-v1.png",
+      url: assetSrc + "/map-marker-featured.png",
       center: [17.5, 47],
     },
   };
