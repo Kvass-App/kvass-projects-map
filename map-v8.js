@@ -159,6 +159,12 @@ jQuery(document).ready(function () {
           latlngbounds.extend(marker.position);
         });
 
+        google.maps.event.addListener(map, "click", function (event) {
+          openInfoWindows.forEach(function (i) {
+            i.close();
+          });
+        });
+
         map.setCenter(latlngbounds.getCenter());
         map.fitBounds(latlngbounds);
       });
