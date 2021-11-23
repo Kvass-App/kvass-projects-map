@@ -5,7 +5,7 @@
     "id": "6166b8afff52154bf643bc50",
     "name": "Bomansvik",
     "cover": "https://assets.kvass.no/6167572dff52154bf643beae",
-    "description": "<h1>Ta en titt på boligprosjektet til Bokvalitet</h1><p>På dette prosjektet har de tatt i bruk:</p><ul><li>Prosjekt-/ boligside</li></ul>",
+    "description": "<h4>Ta en titt på boligprosjektet til Bokvalitet</h4><p>På dette prosjektet har de tatt i bruk:</p><ul><li>Prosjekt-/ boligside</li></ul>",
     "coordinates": [10.70034, 59.790909],
     "featured": true,
     "url": "https://bomansvik.bokvalitet.no"
@@ -16,7 +16,7 @@
     "id": "603b8dab7572c0117128d088",
     "name": "Evenskjer Syd",
     "cover": "https://assets.kvass.no/60ad22b58f47357e530f6331",
-    "description": "<h1>Ta en titt på boligprosjektet til Kanstad Trelast Systemhus og Harstadbygg, Mesterhus!</h1><p>På dette prosjektet har de tatt i bruk:</p><ul><li>Prosjekt-/ boligside</li><li>Tilvalg presentasjon</li></ul>",
+    "description": "<h4>Ta en titt på boligprosjektet til Kanstad Trelast Systemhus og Harstadbygg, Mesterhus!</h4><p>På dette prosjektet har de tatt i bruk:</p><ul><li>Prosjekt-/ boligside</li><li>Tilvalg presentasjon</li></ul>",
     "coordinates": [16.577063, 68.581387],
     "featured": true,
     "url": "https://www.evenskjersyd.no"
@@ -33,7 +33,7 @@
     "id": "609cff2225104110beee2b45",
     "name": "Jessneslia",
     "cover": "https://assets.kvass.no/615d7674f61de2390d9a5705",
-    "description": "<h1>Ta en titt på boligprosjektet til Nordbohus Innlandet!</h1><p>På dette prosjektet har de tatt i bruk:</p><ul><li>Prosjekt-/ boligside</li></ul>",
+    "description": "<h4>Ta en titt på boligprosjektet til Nordbohus Innlandet!</h4><p>På dette prosjektet har de tatt i bruk:</p><ul><li>Prosjekt-/ boligside</li></ul>",
     "coordinates": [11.001279, 60.826943],
     "featured": false,
     "url": "https://jessneslia.no"
@@ -43,7 +43,7 @@
     "id": "5fc63a22be6f3014dd357b9b",
     "name": "Gardågrenda",
     "cover": "https://assets.kvass.no/6163e69329fbb96ed5ff9736",
-    "description": "<h1>Ta en titt på hytteprosjektet til Saltdalshytta!</h1><p>På dette prosjektet har de tatt i bruk:</p><ul><li>Prosjekt-/ boligside</li><li>Kjøpsmodul</li></ul>",
+    "description": "<h4>Ta en titt på hytteprosjektet til Saltdalshytta!</h4><p>På dette prosjektet har de tatt i bruk:</p><ul><li>Prosjekt-/ boligside</li><li>Kjøpsmodul</li></ul>",
     "coordinates": [9.7411, 62.62037],
     "featured": false,
     "url": "https://www.gardaagrenda.no"
@@ -52,7 +52,7 @@
     "id": "6113b57d840936343253e7c2",
     "name": "Vardegrenda Kvitfjell",
     "cover": "https://assets.kvass.no/61547609de5c185b59c6da8a",
-    "description": "<h1>Ta en titt på hytteprosjektet til Saltdalshytta!</h1><p>På dette prosjektet har de tatt i bruk:</p><ul><li>Prosjekt-/ boligside</li><li>Kjøpsmodul</li><li>Kjøpekontrakt</li><li>Tilvalg presentasjon og salg</li></ul>",
+    "description": "<h4>Ta en titt på hytteprosjektet til Saltdalshytta!</h4><p>På dette prosjektet har de tatt i bruk:</p><ul><li>Prosjekt-/ boligside</li><li>Kjøpsmodul</li><li>Kjøpekontrakt</li><li>Tilvalg presentasjon og salg</li></ul>",
     "coordinates": [10.094426, 61.447175],
     "featured": true,
     "url": "https://www.vardegrenda-kvitfjell.no"
@@ -62,7 +62,7 @@
     "id": "6086fc3de3108c0fb9505873",
     "name": "Osetunet",
     "cover": "https://assets.kvass.no/60891734884eb717e1f39ed4",
-    "description": "<h1>Ta en titt på boligprosjektet til Tømrer Prosjekt Mesterhus!<br><p>På dette prosjektet har de tatt i bruk:</p><ul><li>Prosjekt-/ boligside</li></ul>",
+    "description": "<h4>Ta en titt på boligprosjektet til Tømrer Prosjekt Mesterhus!<br><p>På dette prosjektet har de tatt i bruk:</p><ul><li>Prosjekt-/ boligside</li></ul>",
     "coordinates": [6.122575, 62.188707],
     "featured": false,
     "url": "https://www.osetunet.no"
