@@ -10,9 +10,9 @@ jQuery(document).ready(function () {
     "//maps.googleapis.com/maps/api/js?key=" + mapKey + "&ver=3.13.2";
   var baseSrc =
     "https://cdn.jsdelivr.net/gh/Kvass-App/kvass-projects-map@master";
-  var imgSrc =
+  var gitSrc =
     "https://raw.githubusercontent.com/Kvass-App/kvass-projects-map/master/";
-  var assetSrc = imgSrc + "/assets/" + vendor;
+  var assetSrc = gitSrc + "/assets/" + vendor;
   var markers = {
     dot: {
       url: assetSrc + "/map-marker-dot-main.png",
@@ -101,7 +101,7 @@ jQuery(document).ready(function () {
     map.mapTypes.set("flatsome", styledMapType);
 
     var openInfoWindows = [];
-    fetch(baseSrc + "/data/" + vendor + ".json")
+    fetch(gitSrc + "/data/" + vendor + ".json")
       .then(function (res) {
         return res.json();
       })
