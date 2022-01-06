@@ -49,22 +49,21 @@
     "url": "https://www.gardaagrenda.no"
   },
   {
-    "id": "6113b57d840936343253e7c2",
-    "name": "Vardegrenda Kvitfjell",
-    "cover": "https://assets.kvass.no/61547609de5c185b59c6da8a",
-    "description": "<h4>Ta en titt på hytteprosjektet til Saltdalshytta!</h4><p>På denne nettsiden har de tatt i bruk</p><ul><li>Unike boligsider</li><li>Boligvelger</li><li>Kjøpsmodul</li><li>Tilvalg presentasjon</li></ul>",
-    "coordinates": [10.094426, 61.447175],
+    "id": "6086fc3de3108c0fb9505873",
+    "name": "Alveberget",
+    "cover": "https://assets.kvass.no/60891734884eb717e1f39ed4",
+    "description": "<h4>Ta en titt på hytteprosjektet til Byggpartnere!</h4><p>På denne nettsiden har de tatt i bruk</p><ul><li>Boligvelger</li><li>Unike boligsider</li><li>Tilvalg presentasjon</li></ul>",
+    "coordinates": [58.464077, 8.875738],
     "featured": true,
-    "url": "https://www.vardegrenda-kvitfjell.no"
+    "url": "https://www.alveberget.no"
   },
-  { "coordinates": [4.96851, 60.557522] },
   {
     "id": "6086fc3de3108c0fb9505873",
-    "name": "Osetunet",
+    "name": "Rolighetenalle",
     "cover": "https://assets.kvass.no/60891734884eb717e1f39ed4",
-    "description": "<h4>Ta en titt på boligprosjektet til Tømrer Prosjekt, Mesterhus!</h4><p>På denne nettsiden har de tatt i bruk</p><ul><li>Unike boligsider</li><li>Boligvelger</li></ul>",
-    "coordinates": [6.122575, 62.188707],
-    "featured": false,
-    "url": "https://www.osetunet.no"
+    "description": "<h4>Ta en titt på leilighetsprosjektet til Mestergruppen Eiendom!</h4><p>På denne nettsiden har de tatt i bruk</p><ul><li>Boligvelger</li></ul>",
+    "coordinates": [59.270703, 11.162244],
+    "featured": true,
+    "url": "https://www.rolighetenalle.no"
   }
 ]
