@@ -137,7 +137,7 @@
     "cover": "https://assets.kvass.no/60891734884eb717e1f39ed4",
     "description": "<h4>Ta en titt på hytteprosjektet til Byggpartnere!</h4><p>På denne nettsiden har de tatt i bruk</p><ul><li>Boligvelger</li><li>Unike boligsider</li><li>Tilvalg presentasjon</li></ul>",
     "coordinates": [58.464077, 8.875738],
-    "featured": false,
+    "featured": true,
     "url": "https://www.alveberget.no"
   },
   {
@@ -146,7 +146,7 @@
     "cover": "https://assets.kvass.no/60891734884eb717e1f39ed4",
     "description": "<h4>Ta en titt på leilighetsprosjektet til Mestergruppen Eiendom!</h4><p>På denne nettsiden har de tatt i bruk</p><ul><li>Boligvelger</li></ul>",
     "coordinates": [59.270703, 11.162244],
-    "featured": false,
+    "featured": true,
     "url": "https://www.rolighetenalle.no"
   }
 ]
