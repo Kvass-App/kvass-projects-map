@@ -47,5 +47,23 @@
     "coordinates": [9.7411, 62.62037],
     "featured": false,
     "url": "https://www.gardaagrenda.no"
+  },
+  {
+    "id": "6086fc3de3108c0fb9505873",
+    "name": "Alveberget",
+    "cover": "https://assets.kvass.no/60891734884eb717e1f39ed4",
+    "description": "<h4>Ta en titt på hytteprosjektet til Byggpartnere!</h4><p>På denne nettsiden har de tatt i bruk</p><ul><li>Boligvelger</li><li>Unike boligsider</li><li>Tilvalg presentasjon</li></ul>",
+    "coordinates": [8.875738, 58.464077],
+    "featured": true,
+    "url": "https://www.alveberget.no"
+  },
+  {
+    "id": "6086fc3de3108c0fb9505873",
+    "name": "Rolighetenalle",
+    "cover": "https://assets.kvass.no/60891734884eb717e1f39ed4",
+    "description": "<h4>Ta en titt på leilighetsprosjektet til Mestergruppen Eiendom!</h4><p>På denne nettsiden har de tatt i bruk</p><ul><li>Boligvelger</li></ul>",
+    "coordinates": [11.162244 ,59.270703],
+    "featured": true,
+    "url": "https://www.rolighetenalle.no"
   }
 ]
