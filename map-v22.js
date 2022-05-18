@@ -101,9 +101,8 @@ jQuery(document).ready(function () {
     map.mapTypes.set("flatsome", styledMapType);
 
     var openInfoWindows = [];
-    fetch({
+    fetch(gitSrc + "/data/" + vendor + ".json", {
       method: "GET",
-      url: gitSrc + "/data/" + vendor + ".json",
       headers: {
         "Cache-Control": "no-cache",
       },
