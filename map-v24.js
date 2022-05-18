@@ -104,7 +104,7 @@ jQuery(document).ready(function () {
     fetch(gitSrc + "data/" + vendor + ".json", {
       method: "GET",
       headers: {
-        "Cache-Control": "no-cache",
+        // "Cache-Control": "no-cache",
       },
     })
       .then(function (res) {
