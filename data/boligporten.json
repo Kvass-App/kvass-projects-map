@@ -1,1 +1,86 @@
-[{"coordinates":[6.76429,62.340785]},{"coordinates":[5.508987,60.520859]},{"id":"6166b8afff52154bf643bc50","name":"Bomansvik","cover":"https://assets.kvass.no/6167572dff52154bf643beae","description":"Ta en titt på boligprosjektet til Bokvalitet, Blink hus!<br>På dette prosjektet har de tatt i bruk:<br>- Prosjekt-/ boligside","coordinates":[10.70034,59.790909],"url":"https://bomansvik.bokvalitet.no"},{"id":"61f7feeefcca832afddc4170","name":"Kleivantoppen","cover":"https://assets.kvass.no/6262af0e165b0209a7f21b19","description":"Ta en titt på boligprosjektet til Bokvalitet!<br>På denne nettsiden har de tatt i bruk:<br>-Kommer for salg - nettside","coordinates":[10.273897,59.516478],"url":"https://kleivantoppen.no"},{"coordinates":[11.603928,60.896076]},{"coordinates":[9.56137,60.21965]},{"coordinates":[8.875738,58.464077]},{"coordinates":[10.850708,63.510963]},{"coordinates":[16.577063,68.581387]},{"coordinates":[10.75255,59.3819]},{"coordinates":[10.81051,59.7666]},{"coordinates":[5.327858,59.354162]},{"coordinates":[5.328123,59.354108]},{"coordinates":[5.327887,59.35395]},{"coordinates":[16.577063,68.581387]},{"coordinates":[17.99665,69.23129]},{"coordinates":[5.367355,60.582092]},{"coordinates":[11.54723,64.47308]},{"coordinates":[11.162244,59.270703]},{"coordinates":[11.02436,60.22199]},{"id":"61853eed8d685b10902a140d","name":"Vestbyhagen","cover":"https://assets.kvass.no/625ea4fcddfe7413e5534c5c","description":"Ta en titt på leilighetsprosjektet til Mestergruppen Eiendom!<br>På denne nettsiden har de tatt i bruk:<br>-Kommer for salg - nettside<br>-Leilighetsvelger<br>-Unike undersider for hver leilighet","coordinates":[10.74748,59.60792],"url":"https://vestbyhagen.no"},{"coordinates":[9.771438,61.493932]},{"id":"609cff2225104110beee2b45","name":"Jessneslia","cover":"https://assets.kvass.no/615d7674f61de2390d9a5705","description":"Ta en titt på boligprosjektet til Nordbohus Innlandet!<br>På dette prosjektet har de tatt i bruk:<br>- Prosjekt-/ boligside","coordinates":[11.001279,60.826943],"url":"https://jessneslia.no"},{"coordinates":[11.47682,60.08677]},{"coordinates":[9.7411,62.62037]},{"coordinates":[10.094426,61.447175]},{"coordinates":[4.96851,60.557522]},{"coordinates":[6.122575,62.188707]}]
+[
+  { "coordinates": [6.76429, 62.340785] },
+  { "coordinates": [5.508987, 60.520859] },
+  {
+    "id": "6166b8afff52154bf643bc50",
+    "name": "Bomansvik",
+    "cover": "https://assets.kvass.no/6167572dff52154bf643beae",
+    "description": "Ta en titt på boligprosjektet til Bokvalitet, Blink hus!<br>På dette prosjektet har de tatt i bruk:<br>- Prosjekt-/ boligside",
+    "coordinates": [10.70034, 59.790909],
+    "url": "https://bomansvik.bokvalitet.no"
+  },
+  {
+    "id": "61f7feeefcca832afddc4170",
+    "name": "Kleivantoppen",
+    "cover": "https://assets.kvass.no/6262af0e165b0209a7f21b19",
+    "description": "Ta en titt på boligprosjektet til Bokvalitet!<br>På denne nettsiden har de tatt i bruk:<br>-Kommer for salg - nettside",
+    "coordinates": [10.273897, 59.516478],
+    "url": "https://kleivantoppen.no"
+  },
+  { "coordinates": [11.603928, 60.896076] },
+  { "coordinates": [9.56137, 60.21965] },
+  { "coordinates": [8.875738, 58.464077] },
+  { "coordinates": [10.850708, 63.510963] },
+  {
+    "id": "603b8dab7572c0117128d088",
+    "name": "Evenskjer Syd",
+    "cover": "https://assets.kvass.no/60ad22b58f47357e530f6331",
+    "description": "Ta en titt på boligprosjektet til Kanstad Trelast, Systemhus og Harstadbygg, Mesterhus!<br>På dette prosjektet har de tatt i bruk:<br>- Prosjekt-/ boligside<br>- Tilvalg presentasjon",
+    "coordinates": [16.577063, 68.581387],
+    "url": "https://evenskjersyd.no"
+  },
+  { "coordinates": [10.75255, 59.3819] },
+  { "coordinates": [10.81051, 59.7666] },
+  { "coordinates": [5.327858, 59.354162] },
+  { "coordinates": [5.328123, 59.354108] },
+  { "coordinates": [5.327887, 59.35395] },
+  { "coordinates": [16.577063, 68.581387] },
+  { "coordinates": [17.99665, 69.23129] },
+  { "coordinates": [5.367355, 60.582092] },
+  { "coordinates": [11.54723, 64.47308] },
+  { "coordinates": [11.162244, 59.270703] },
+  { "coordinates": [11.02436, 60.22199] },
+  {
+    "id": "61853eed8d685b10902a140d",
+    "name": "Vestbyhagen",
+    "cover": "https://assets.kvass.no/625ea4fcddfe7413e5534c5c",
+    "description": "Ta en titt på leilighetsprosjektet til Mestergruppen Eiendom!<br>På denne nettsiden har de tatt i bruk:<br>-Kommer for salg - nettside<br>-Leilighetsvelger<br>-Unike undersider for hver leilighet",
+    "coordinates": [10.74748, 59.60792],
+    "url": "https://vestbyhagen.no"
+  },
+  { "coordinates": [9.771438, 61.493932] },
+  {
+    "id": "609cff2225104110beee2b45",
+    "name": "Jessneslia",
+    "cover": "https://assets.kvass.no/615d7674f61de2390d9a5705",
+    "description": "Ta en titt på boligprosjektet til Nordbohus Innlandet!<br>På dette prosjektet har de tatt i bruk:<br>- Prosjekt-/ boligside",
+    "coordinates": [11.001279, 60.826943],
+    "url": "https://jessneslia.no"
+  },
+  { "coordinates": [11.47682, 60.08677] },
+  {
+    "id": "5fc63a22be6f3014dd357b9b",
+    "name": "Gardågrenda",
+    "cover": "https://assets.kvass.no/6163e69329fbb96ed5ff9736",
+    "description": "Ta en titt på hytteprosjektet til Saltdalshytta!<br>På dette prosjektet har de tatt i bruk:<br>- Prosjekt-/ boligside<br>- Kjøpsmodul",
+    "coordinates": [9.7411, 62.62037],
+    "url": "https://gardaagrenda.no"
+  },
+  {
+    "id": "6113b57d840936343253e7c2",
+    "name": "Vardegrenda Kvitfjell",
+    "cover": "https://assets.kvass.no/625078a9439e234ee086fec4",
+    "description": "Ta en titt på hytteprosjektet til Saltdalshytta!<br>På dette prosjektet har de tatt i bruk:<br>- Prosjekt-/ boligside<br>- Kjøpsmodul<br>- Kjøpekontrakt<br>- Tilvalg presentasjon og salg",
+    "coordinates": [10.094426, 61.447175],
+    "url": "https://vardegrenda-kvitfjell.no"
+  },
+  { "coordinates": [4.96851, 60.557522] },
+  {
+    "id": "6086fc3de3108c0fb9505873",
+    "name": "Osetunet",
+    "cover": "https://assets.kvass.no/60891734884eb717e1f39ed4",
+    "description": "Ta en titt på boligprosjektet til Tømrer Prosjekt, Mesterhus!<br>På dette prosjektet har de tatt i bruk:<br>- Prosjekt-/ boligside",
+    "coordinates": [6.122575, 62.188707],
+    "url": "https://osetunet.no"
+  }
+]
