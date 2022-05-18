@@ -5,7 +5,7 @@
     "id": "5f477c404394b508501bb892",
     "name": "Melhustunet",
     "cover": "https://assets.kvass.no/61d2cf4527c1601cd6603ba1",
-    "description": "\n            <h4>Ta en titt på leilighetsprosjektet til Barlindhaug Eiendom!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Prosjekt-/ boligside</li>\n            </ul>\n          ",
+    "description": "\n            <h4>Ta en titt på leilighetsprosjektet til Barlindhaug Eiendom!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Prosjektside</li><li>Leilighetsvelger</li><li>Unike undersider for hver leilighet</li>\n            </ul>\n          ",
     "coordinates": [10.274769, 63.28375],
     "url": "https://melhustunet.no"
   },
@@ -15,7 +15,7 @@
     "id": "6166b8afff52154bf643bc50",
     "name": "Bomansvik",
     "cover": "https://assets.kvass.no/6167572dff52154bf643beae",
-    "description": "\n            <h4>Ta en titt på boligprosjektet til Bokvalitet, Blink hus!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Prosjekt-/ boligside</li>\n            </ul>\n          ",
+    "description": "\n            <h4>Ta en titt på boligprosjektet til Bokvalitet, Blink hus!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Prosjektside</li><li>Boligvelger</li><li>Unike boligsider</li>\n            </ul>\n          ",
     "coordinates": [10.70034, 59.790909],
     "url": "https://bomansvik.bokvalitet.no"
   },
@@ -38,8 +38,8 @@
   {
     "id": "611cb6e228a8be6547167a4e",
     "name": "Alveberget",
-    "cover": "https://assets.kvass.no/62850e136ccf593a556b7439",
-    "description": "\n            <h4>Ta en titt på hytteprosjektet til Byggpartnere!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Boligvelger</li><li>Unike boligsider</li><li>Tilvalg presentasjon</li>\n            </ul>\n          ",
+    "cover": "https://assets.kvass.no/62851e9f8347b6399d1cf630",
+    "description": "\n            <h4>Ta en titt på hytteprosjektet til Byggpartnere!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Prosjektside</li><li>Hyttevelger</li><li>Unike undersider for hver hytte</li>\n            </ul>\n          ",
     "coordinates": [8.875738, 58.464077],
     "url": "https://alveberget.no"
   },
@@ -47,7 +47,7 @@
     "id": "62726ad34de4270dbe7a0ef0",
     "name": "Åsløkkveien 61 og 63",
     "cover": "https://assets.kvass.no/62726eae4de4270dbe7a133c",
-    "description": "\n            <h4>Ta en titt på boligprosjektet til Eie Eiendomsmegling!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Boligvelger</li><li>Leilighetsvelger</li><li>Unike boligsider</li>\n            </ul>\n          ",
+    "description": "\n            <h4>Ta en titt på boligprosjektet til Eie Eiendomsmegling!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Prosjektside</li><li>Boligvelger</li><li>Unike boligsider</li>\n            </ul>\n          ",
     "coordinates": [10.49015, 59.87722],
     "url": "https://aslokkveien.no"
   },
@@ -60,7 +60,7 @@
     "id": "603b8dab7572c0117128d088",
     "name": "Evenskjer Syd",
     "cover": "https://assets.kvass.no/60ad22b58f47357e530f6331",
-    "description": "\n            <h4>Ta en titt på boligprosjektet til Kanstad Trelast, Systemhus og Harstadbygg, Mesterhus!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Prosjekt-/ boligside</li><li>Tilvalg presentasjon</li>\n            </ul>\n          ",
+    "description": "\n            <h4>Ta en titt på boligprosjektet til Kanstad Trelast, Systemhus og Harstadbygg, Mesterhus!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Prosjektside</li><li>Boligvelger</li><li>Unike boligsider</li>\n            </ul>\n          ",
     "coordinates": [16.577063, 68.581387],
     "url": "https://evenskjersyd.no"
   },
@@ -81,7 +81,7 @@
     "id": "61853e5d8d685b10902a129d",
     "name": "Roligheten",
     "cover": "https://assets.kvass.no/6231f26c71af7d64d4b8c1ce",
-    "description": "\n            <h4>Ta en titt på leilighetsprosjektet til Mestergruppen Eiendom!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Leilighetsvelger</li><li>Unike undersider for hver leilighet</li>\n            </ul>\n          ",
+    "description": "\n            <h4>Ta en titt på leilighetsprosjektet til Mestergruppen Eiendom!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Prosjektside</li><li>Leilighetsvelger</li><li>Unike undersider for hver leilighet</li>\n            </ul>\n          ",
     "coordinates": [11.162244, 59.270703],
     "url": "https://rolighetenalle.no"
   },
@@ -90,7 +90,7 @@
     "id": "61853eed8d685b10902a140d",
     "name": "Vestbyhagen",
     "cover": "https://assets.kvass.no/625ea4fcddfe7413e5534c5c",
-    "description": "\n            <h4>Ta en titt på leilighetsprosjektet til Mestergruppen Eiendom!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Kommer for salg - nettside</li><li>Leilighetsvelger</li><li>Unike undersider for hver leilighet</li>\n            </ul>\n          ",
+    "description": "\n            <h4>Ta en titt på leilighetsprosjektet til Mestergruppen Eiendom!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Prosjektside</li><li>Leilighetsvelger</li><li>Unike undersider for hver leilighet</li>\n            </ul>\n          ",
     "coordinates": [10.74748, 59.60792],
     "url": "https://vestbyhagen.no"
   },
@@ -115,7 +115,7 @@
     "id": "6131bd4f1292653fcbedbd05",
     "name": "Bergen / Askøy",
     "cover": "https://assets.kvass.no/6142f3994c019633f9e78c01",
-    "description": "\n            <h4>Ta en titt på lagerbygg prosjektet til Mittegetlokale!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Prosjekt-/ boligside</li><li>Kjøpsmodul</li>\n            </ul>\n          ",
+    "description": "\n            <h4>Ta en titt på lagerbygg prosjektet til Mittegetlokale!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Prosjektside</li><li>Lagervelger</li><li>Unike undersider for hver lagerseksjon</li><li>Kjøpsmodul</li>\n            </ul>\n          ",
     "coordinates": [5.190987, 60.436646],
     "url": "https://askoy.mittegetlokale.no"
   },
@@ -123,7 +123,7 @@
     "id": "620f5e7e347dd31013325c9b",
     "name": "Mosetertoppen Topyard",
     "cover": "https://assets.kvass.no/623bb4cf750bb964db28668a",
-    "description": "\n            <h4>Ta en titt på leilighetsprosjektet til Mosetertoppen!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Boligvelger</li><li>Unike boligsider</li>\n            </ul>\n          ",
+    "description": "\n            <h4>Ta en titt på leilighetsprosjektet til Mosetertoppen!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Prosjektside</li><li>Leilighetsvelger</li><li>Unike undersider for hver leilighet</li>\n            </ul>\n          ",
     "coordinates": [10.529014, 61.23037],
     "url": "https://topyardmosetertoppen.no"
   },
@@ -135,7 +135,7 @@
     "id": "609cff2225104110beee2b45",
     "name": "Jessneslia",
     "cover": "https://assets.kvass.no/615d7674f61de2390d9a5705",
-    "description": "\n            <h4>Ta en titt på boligprosjektet til Nordbohus Innlandet!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Prosjekt-/ boligside</li>\n            </ul>\n          ",
+    "description": "\n            <h4>Ta en titt på boligprosjektet til Nordbohus Innlandet!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Prosjektside</li><li>Boligvelger</li><li>Unike boligsider</li>\n            </ul>\n          ",
     "coordinates": [11.001279, 60.826943],
     "url": "https://jessneslia.no"
   },
@@ -147,7 +147,7 @@
     "id": "5fc63a22be6f3014dd357b9b",
     "name": "Gardågrenda",
     "cover": "https://assets.kvass.no/6163e69329fbb96ed5ff9736",
-    "description": "\n            <h4>Ta en titt på hytteprosjektet til Saltdalshytta!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Prosjekt-/ boligside</li><li>Kjøpsmodul</li>\n            </ul>\n          ",
+    "description": "\n            <h4>Ta en titt på hytteprosjektet til Saltdalshytta!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Prosjektside</li><li>Hyttevelger</li><li>Unike undersider for hver hytte</li><li>Kjøpsmodul</li>\n            </ul>\n          ",
     "coordinates": [9.7411, 62.62037],
     "url": "https://gardaagrenda.no"
   },
@@ -155,7 +155,7 @@
     "id": "6113b57d840936343253e7c2",
     "name": "Vardegrenda Kvitfjell",
     "cover": "https://assets.kvass.no/625078a9439e234ee086fec4",
-    "description": "\n            <h4>Ta en titt på hytteprosjektet til Saltdalshytta!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Prosjekt-/ boligside</li><li>Kjøpsmodul</li><li>Kjøpekontrakt</li><li>Tilvalg presentasjon og salg</li>\n            </ul>\n          ",
+    "description": "\n            <h4>Ta en titt på hytteprosjektet til Saltdalshytta!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Prosjektside</li><li>Hyttevelger</li><li>Unike undersider for hver hytte</li><li>Kjøpsmodul</li><li>Kjøpekontrakt</li>\n            </ul>\n          ",
     "coordinates": [10.094426, 61.447175],
     "url": "https://vardegrenda-kvitfjell.no"
   },
@@ -172,7 +172,7 @@
     "id": "6086fc3de3108c0fb9505873",
     "name": "Osetunet",
     "cover": "https://assets.kvass.no/60891734884eb717e1f39ed4",
-    "description": "\n            <h4>Ta en titt på boligprosjektet til Tømrer Prosjekt, Mesterhus!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Prosjekt-/ boligside</li>\n            </ul>\n          ",
+    "description": "\n            <h4>Ta en titt på boligprosjektet til Tømrer Prosjekt, Mesterhus!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Prosjektside</li><li>Boligvelger</li><li>Unike boligsider</li>\n            </ul>\n          ",
     "coordinates": [6.122575, 62.188707],
     "url": "https://osetunet.no"
   },
@@ -180,7 +180,7 @@
     "id": "624d59f14a36310db5f624ec",
     "name": "Vasetlia",
     "cover": "https://assets.kvass.no/626f9ef7c886100a47c900b7",
-    "description": "\n            <h4>Ta en titt på tomteprosjektet til Vaset Utbyggingsselskap!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Tomtevelger</li><li>Unike undersider for hver tomt</li>\n            </ul>\n          ",
+    "description": "\n            <h4>Ta en titt på tomteprosjektet til Vaset Utbyggingsselskap!</h4>\n            <p>På dette prosjektet har de tatt i bruk:</p>\n            <ul>\n              <li>Prosjektside</li><li>Tomtevelger</li><li>Unike undersider for hver tomt</li>\n            </ul>\n          ",
     "coordinates": [8.971947, 60.983102],
     "url": "https://vasetlia.com"
   }

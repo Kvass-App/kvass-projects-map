@@ -1,29 +1,29 @@
 jQuery(document).ready(function () {
-  var target = document.querySelector('.locations-map');
+  var target = document.querySelector(".locations-map");
   if (!target) return;
 
-  var mapKey = target.getAttribute('map-key');
-  var vendor = target.getAttribute('vendor') || 'kvass';
-  var theme = target.getAttribute('theme') || '#013552';
+  var mapKey = target.getAttribute("map-key");
+  var vendor = target.getAttribute("vendor") || "kvass";
+  var theme = target.getAttribute("theme") || "#013552";
 
   var scriptSrc =
-    '//maps.googleapis.com/maps/api/js?key=' + mapKey + '&ver=3.13.2';
+    "//maps.googleapis.com/maps/api/js?key=" + mapKey + "&ver=3.13.2";
   var baseSrc =
-    'https://cdn.jsdelivr.net/gh/Kvass-App/kvass-projects-map@master';
+    "https://cdn.jsdelivr.net/gh/Kvass-App/kvass-projects-map@master";
   var gitSrc =
-    'https://raw.githubusercontent.com/Kvass-App/kvass-projects-map/master/';
-  var assetSrc = gitSrc + '/assets/' + vendor;
+    "https://raw.githubusercontent.com/Kvass-App/kvass-projects-map/master/";
+  var assetSrc = gitSrc + "/assets/" + vendor;
   var markers = {
     dot: {
-      url: assetSrc + '/map-marker-dot-main.png',
+      url: assetSrc + "/map-marker-dot-main.png",
       center: [5, 5],
     },
     default: {
-      url: assetSrc + '/map-marker.png',
+      url: assetSrc + "/map-marker.png",
       center: [12.5, 33],
     },
     featured: {
-      url: assetSrc + '/map-marker-featured.png',
+      url: assetSrc + "/map-marker-featured.png",
       center: [17.5, 47],
     },
   };
@@ -31,16 +31,16 @@ jQuery(document).ready(function () {
   function LoadScript(src, callback) {
     if (document.querySelector('[src="' + src + '"')) return callback();
 
-    var t = document.createElement('script');
+    var t = document.createElement("script");
     t.src = src;
-    t.type = 'text/javascript';
-    t.addEventListener('load', callback);
+    t.type = "text/javascript";
+    t.addEventListener("load", callback);
 
     document.body.appendChild(t);
   }
 
   function initialize() {
-    if (!(typeof google === 'object' && typeof google.maps === 'object'))
+    if (!(typeof google === "object" && typeof google.maps === "object"))
       return;
 
     //google.maps.event.addDomListener(window, "resize", initialize);
@@ -48,21 +48,21 @@ jQuery(document).ready(function () {
     var styles = {
       flatsome: [
         {
-          featureType: 'road',
-          stylers: [{ visibility: 'on' }, { hue: theme }],
+          featureType: "road",
+          stylers: [{ visibility: "on" }, { hue: theme }],
         },
         {
-          featureType: 'water',
-          stylers: [{ visibility: 'on' }, { color: theme }],
+          featureType: "water",
+          stylers: [{ visibility: "on" }, { color: theme }],
         },
         {
-          stylers: [{ visibility: 'on' }, { hue: theme }, { saturation: 50 }],
+          stylers: [{ visibility: "on" }, { hue: theme }, { saturation: 50 }],
         },
         {
-          elementType: 'labels',
+          elementType: "labels",
           stylers: [
             {
-              visibility: 'off',
+              visibility: "off",
             },
           ],
         },
@@ -76,7 +76,7 @@ jQuery(document).ready(function () {
       center,
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       disableDefaultUI: true,
-      mapTypeId: 'flatsome',
+      mapTypeId: "flatsome",
       draggable: true,
       zoomControl: true,
       zoomControlOptions: {
@@ -94,32 +94,38 @@ jQuery(document).ready(function () {
       disableDoubleClickZoom: true,
     };
     var map = new google.maps.Map(target, myOptions);
-    var styledMapType = new google.maps.StyledMapType(styles['flatsome'], {
-      name: 'flatsome',
+    var styledMapType = new google.maps.StyledMapType(styles["flatsome"], {
+      name: "flatsome",
     });
 
-    map.mapTypes.set('flatsome', styledMapType);
+    map.mapTypes.set("flatsome", styledMapType);
 
     var openInfoWindows = [];
-    fetch(gitSrc + '/data/' + vendor + '.json')
+    fetch({
+      method: "GET",
+      url: gitSrc + "/data/" + vendor + ".json",
+      headers: {
+        "Cache-Control": "no-cache",
+      },
+    })
       .then(function (res) {
         return res.json();
       })
       .then(function (data) {
         data.forEach((project) => {
-          let markerType = 'dot';
-          if (project.url) markerType = 'default';
-          if (project.featured) markerType = 'featured';
+          let markerType = "dot";
+          if (project.url) markerType = "default";
+          if (project.featured) markerType = "featured";
 
           var marker = new google.maps.Marker({
             position: new google.maps.LatLng(
               project.coordinates[1],
-              project.coordinates[0],
+              project.coordinates[0]
             ),
             icon: {
               labelOrigin: new google.maps.Point(
                 markers[markerType].center[0],
-                markers[markerType].center[1],
+                markers[markerType].center[1]
               ),
               url: markers[markerType].url,
             },
@@ -132,10 +138,10 @@ jQuery(document).ready(function () {
 <div class="locations-map-info" style="max-width:410px;">${
               project.cover
                 ? `<img style="max-width:410px" src="${project.cover}" />`
-                : ''
+                : ""
             }
 <div style="color: #333333;">${
-              project.description ? `${project.description}` : ''
+              project.description ? `${project.description}` : ""
             }</div>
 <a href="${
               project.url
@@ -146,8 +152,8 @@ jQuery(document).ready(function () {
 <p>`,
           });
 
-          if (markerType !== 'dot')
-            marker.addListener('click', function () {
+          if (markerType !== "dot")
+            marker.addListener("click", function () {
               openInfoWindows.forEach(function (i) {
                 i.close();
               });
@@ -159,7 +165,7 @@ jQuery(document).ready(function () {
           latlngbounds.extend(marker.position);
         });
 
-        google.maps.event.addListener(map, 'click', function (event) {
+        google.maps.event.addListener(map, "click", function (event) {
           openInfoWindows.forEach(function (i) {
             i.close();
           });
